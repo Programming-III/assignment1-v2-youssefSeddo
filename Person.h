@@ -1,20 +1,25 @@
-#ifndef PERSON_H
-#define PERSON_H
-
-#include <string>
+#include<iostream>
 using namespace std;
-
-//#write Person class here
-
-
-
-
-
-
-
-
-
-
+class Person {
+    public:
+        string name;
+        int id;
+        virtual void display();
+        Person(string name, int id);
+        Person();
+        string getName();
+        int getId();
+};
 
 
-#endif
+
+
+
+
+
+
+
+
+
+
+
