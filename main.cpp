@@ -62,7 +62,7 @@ int Student::getYearLevel() {
 
 // ==================== Instructor Class Implementation ====================
 
-Instructor::Instructor():Person("Unknown",0) {
+Instructor::Instructor():Person("Unknown Instructor",0) {
     department = "Unknown";
     experienceYears = 0;
 }
